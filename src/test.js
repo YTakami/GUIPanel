@@ -18,3 +18,15 @@ exports.heart = function(){
 	];
 	return heart;
 }
+exports.uist = function(){
+	trace(1);
+	var Matrix = require("index");
+	trace(Matrix);
+	var m = new Matrix();
+	m.writeString("UIST");
+	m.breakLine();
+	m.putSpace();
+	m.writeString("2014");
+	m.printBitmap();
+	return m.getBitmap();
+}

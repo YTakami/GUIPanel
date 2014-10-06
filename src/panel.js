@@ -76,7 +76,8 @@ Preset.prototype = Object.create(Object.prototype, {
 	name: { value: "heart", writable: true },
 	onTouchBegan: {
 		value: function(p) {
-			if(p.name = "heart") bitmap = ts.heart();
+			//if(p.name = "heart") bitmap = ts.heart();
+			bitmap = ts.uist();
 		}
 	},
 });
